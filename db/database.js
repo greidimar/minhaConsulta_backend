@@ -16,6 +16,7 @@ db.serialize(() => {
     password TEXT NOT NULL,
     role TEXT NOT NULL
   )`);
+  
 
   // Criar a tabela de consultas
   db.run(`CREATE TABLE IF NOT EXISTS consultations (
