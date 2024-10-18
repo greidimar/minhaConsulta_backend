@@ -1,5 +1,5 @@
 const express = require('express');
-const consultasController = require('../controllers/consultasController');
+const consultasController = require('../controllers/ConsultationsController');
 const authMiddleware = require('../middleware/authMiddleware'); // Autenticação JWT
 
 const router = express.Router();
